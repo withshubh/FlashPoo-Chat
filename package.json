@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "lint":"eslint"
   },
   "author": "Shubhendra Singh Chauhan",
   "license": "MIT",
@@ -15,6 +16,9 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
     "nodemon": "^2.0.2"
   }
 }
