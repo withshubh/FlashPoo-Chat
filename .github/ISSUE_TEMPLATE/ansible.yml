@@ -78,32 +78,19 @@ body:
       - 'No'
   validations:
     required: true
-
-- type: markdown
-  attributes:
-    value: >
-      *One last thing...*
-
-
-      *Please, complete **all** sections as described, this form
-      is [processed automatically by a robot][ansibot help].*
-
-
-      Thank you for your collaboration!
-
-
-      [ansibot help]:
-      /ansible/ansibullbot/blob/master/ISSUE_HELP.md#for-issue-submitters
-
-
 - type: checkboxes
   attributes:
     label: Code of Conduct
     description: |
-      Read the [Ansible Code of Conduct][CoC] first.
-
-      [CoC]: https://docs.ansible.com/ansible/latest/community/code_of_conduct.html?utm_medium=github&utm_source=issue_form--documentation_report.yml
+      Read the [ToolJet Code of Conduct][CoC] first.
+      
+      [CoC]: https://docs.tooljet.com/docs/contributing-guide/code-of-conduct
     options:
-    - label: I agree to follow the Ansible Code of Conduct
-      required: true
+      - label: I agree to follow the ToolJet Code of Conduct
+        required: true
+        
+- type: markdown
+  attributes:
+    value: >
+      Thank you for your collaboration!
 ...
