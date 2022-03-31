@@ -62,6 +62,16 @@ body:
 
 - type: textarea
   attributes:
+    label: Additional Information
+    description: >-
+      Describe how this improves the documentation, e.g. before/after situation or screenshots.
+    placeholder: >-
+      When the improvement is applied, it makes it more straightforward to understand X.
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
     label: Configuration
     description: >-
       Paste verbatim output from `ansible-config dump --only-changed`
