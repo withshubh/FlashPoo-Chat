@@ -22,17 +22,11 @@ body:
   attributes:
     label: Summary
     description: >
-      Explain the problem briefly below, add suggestions to wording
-      or structure.
-
-
-      **HINT:** Did you know the documentation has a `View on GitHub`
-      link on some pages? Feel free to use it to start a pull request
-      right from the GitHub UI!
+      Explain the problem briefly below, add suggestions to wording or structure.
+      
+      **HINT:** Did you know the documentation has a `Edit this page` link at the bottom of every doc? Feel free to use it to start a pull request right from the GitHub UI!
     placeholder: >-
-      I was reading the ansible-core documentation of version X and I'm having
-      problems understanding Y. It would be very helpful if that got
-      rephrased as Z.
+      I was reading the ToolJet documentation of Google Sheet data source, and I found the wrong syntax for expected value `{{xyz}}`. The value should be `{{abc}}`.
   validations:
     required: true
 
