@@ -25,8 +25,6 @@ body:
         [Slack community]: https://join.slack.com/t/tooljet/shared_invite/zt-r2neyfcw-KD1COL6t2kgVTlTtAV5rtg
 
         [issue search]: ../search?q=is%3Aissue&type=issues
-
-
   - type: textarea
     attributes:
       label: Summary
@@ -42,7 +40,6 @@ body:
         I was reading the ToolJet documentation of Google Sheet data source, and I found the wrong syntax for expected value `{{xyz}}`. The value should be `{{abc}}`.
     validations:
       required: true
-
   - type: dropdown
     attributes:
       label: Issue Type
@@ -54,7 +51,6 @@ body:
       - Documentation feature/update
     validations:
       required: true
-
   - type: input
     attributes:
       label: The entire URL of the documentation with the issue
@@ -65,8 +61,6 @@ body:
       placeholder: https://docs.tooljet.com/docs/intro
     validations:
       required: true
-
-
   - type: textarea
     attributes:
       label: Steps to reproduce the issue
@@ -75,8 +69,6 @@ body:
       placeholder: 1. Open docs, 2. Go to Google Sheet datasource, 3. click on right sidebar...
     validations:
       required: true
-
-
   - type: textarea
     attributes:
       label: Additional Information
@@ -88,8 +80,6 @@ body:
         to understand X.
     validations:
       required: true
-
-
   - type: dropdown
     attributes:
       label: If the issue is confirmed, would you be willing to submit a pull request?
@@ -98,8 +88,6 @@ body:
       - No
     validations:
       required: true
-
-
   - type: checkboxes
     attributes:
       label: Code of Conduct
@@ -110,8 +98,6 @@ body:
       options:
       - label: I agree to follow the ToolJet Code of Conduct
         required: true
-
-
   - type: markdown
     attributes:
       value: >
