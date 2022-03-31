@@ -43,26 +43,12 @@ body:
 
 - type: input
   attributes:
-    label: Component Name
+    label: The entire URL of the documentation with the issue
     description: >
-      Write the short name of the rst file, module, plugin, task or
-      feature below, *use your best guess if unsure*.
-
-
-      **Tip:** Be advised that the source for some parts of the
-      documentation are hosted outside of this repository. If the page
-      you are reporting describes modules/plugins/etc that are not
-      officially supported by the Ansible Core Engineering team, there
-      is a good chance that it is coming from one of the [Ansible
-      Collections maintained by the community][collections org]. If this
-      is the case, please make sure to file an issue under the
-      appropriate project there instead.
-
-
-      [collections org]: /ansible-collections
-    placeholder: docs/docsite/rst/dev_guide/debugging.rst
+      Please provide a link to the documentation entry:
+    placeholder: https://docs.tooljet.com/docs/intro
   validations:
-    required: true
+    required: false
 
 - type: textarea
   attributes:
