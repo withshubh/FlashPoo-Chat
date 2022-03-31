@@ -1,6 +1,8 @@
 ---
 name: 📝 Documentation
-description: Ask us about docs
+description: Use this template for reporting a documentation issue or submitting a feature request for documentation
+title: "[docs]: "
+labels: ["documentation"]
 
 body:
 - type: markdown
