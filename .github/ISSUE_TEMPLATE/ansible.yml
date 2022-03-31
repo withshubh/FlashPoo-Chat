@@ -74,8 +74,8 @@ body:
   attributes:
     label: If the issue is confirmed, would you be willing to submit a pull request?
     options:
-      - Yes
-      - No
+      - 'Yes'
+      - 'No'
   validations:
     required: true
 
