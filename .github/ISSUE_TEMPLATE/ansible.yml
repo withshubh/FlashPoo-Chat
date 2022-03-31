@@ -69,6 +69,15 @@ body:
       When the improvement is applied, it makes it more straightforward to understand X.
   validations:
     required: false
+    
+- type: dropdown
+    attributes:
+      label: If the issue is confirmed, would you be willing to submit a pull request?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true    
 
 - type: markdown
   attributes:
