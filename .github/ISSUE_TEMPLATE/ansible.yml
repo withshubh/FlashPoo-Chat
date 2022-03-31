@@ -71,13 +71,13 @@ body:
     required: false
     
 - type: dropdown
-    attributes:
-      label: If the issue is confirmed, would you be willing to submit a pull request?
-      options:
+   attributes:
+     label: If the issue is confirmed, would you be willing to submit a pull request?
+     options:
         - Yes
         - No
-    validations:
-      required: true    
+   validations:
+     required: true    
 
 - type: markdown
   attributes:
