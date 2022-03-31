@@ -55,9 +55,6 @@ body:
     label: Steps to reproduce the issue
     description: >-
       Provide step by step instructions to reproduce the issue
-    render: console
-    value: |
-      $ ansible --version
     placeholder: >-
       1. Open docs, 2. Go to Google Sheet datasource, 3. click on right sidebar...
   validations:
